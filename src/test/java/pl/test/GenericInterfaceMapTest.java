@@ -20,6 +20,6 @@ public class GenericInterfaceMapTest {
 		
 		//then
 		Assert.assertEquals("name", copy.getName());
-		Assert.assertEquals("id", copy.getId());
+		Assert.assertEquals("id", copy.getId()); //failure
 	}
 }
